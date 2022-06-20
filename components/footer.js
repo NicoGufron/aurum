@@ -8,13 +8,12 @@ function Footer() {
     return (
         <div className='footer'>
             <div className="firstRow">
-                <h1><a href={"#"}>Eden</a></h1>
+                <h1><a href={"#"}>AURUM</a></h1>
             </div>
             <div className="firstRow">
                 <h3>Contact</h3>
                 <ul className='footerLinks'>
                     <li className='footerBullets'><a>goldiegufron@gmail.com</a></li>
-                    <li className='footerBullets'><a>eden@metaverse.com</a></li>
                 </ul>
             </div>
             <div className="thirdRow">
