@@ -15,7 +15,7 @@ function Navbar() {
                         <a className='nav-link' href={"#features"}>Gallery</a>
                     </li>
                     <li className='nav-item'>
-                        <a className='nav-link' href={"#contact"}>Contact Us</a>
+                        <a className='nav-link' href={"#contact"}>Contact</a>
                     </li>
                 </ul>
             </div>

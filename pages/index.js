@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import ButtonUnstyled, { buttonUnstyledClasses } from '@mui/base/ButtonUnstyled';
@@ -54,7 +55,7 @@ function Home() {
         <div className='title'>
           <h1 className="topTitle animate__animated animate__fadeIn animate__slow">A U R U M </h1>
           <h1 className='bottomTitle animate__animated animate__fadeIn animate__slower'>Virtual Interior</h1>
-          <p className="subtext">Offering a new breakthrough of interior design innovation technology. We provide virtual interior services by turning your static interior projects into an interactive, most fun, and real-time rendering project.</p>
+          <p className="subtext animate__animated animate__fadeIn animate__slower">Offering a new breakthrough of interior design innovation technology. We provide virtual interior services by turning your static interior projects into an interactive, most fun, and real-time rendering project.</p>
         </div>
         <div>
         </div>
@@ -78,7 +79,7 @@ function Home() {
           <div className='video-preview'>
             <Image src={VideoGIF}></Image>
           </div>
-          <CustomButton>View More</CustomButton>
+          <Link href="#features"><CustomButton>View More</CustomButton></Link>
         </div>
       </div>
       <div className='contentThree' id="features">
@@ -86,9 +87,8 @@ function Home() {
           <h1>Gallery</h1>
           <h5>Check out our gallery from our previous projects!</h5>
         </div>
-        <div className="featuresText">
-          <ImgCarousel></ImgCarousel>
-
+        <div className="featuresText" id="carousel">
+          <ImgCarousel ></ImgCarousel>
         </div>
       </div>
       <div className='contentFive' id="contact">
