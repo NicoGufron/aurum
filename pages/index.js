@@ -109,9 +109,9 @@ function Home() {
           <h3 style={{ textShadow: "5px 5px black" }}>...Many more to be added!</h3>
         </div>
       </div>
-      <div className="contentFour" id="products">
+      <div className="contentFour" id="gallery">
         <div className='subtitle'>
-          <h1>Products</h1>
+          <h1>Gallery</h1>
           <h5>See the inside of virtual interior!</h5>
         </div>
         <div className="carousel">
@@ -119,9 +119,17 @@ function Home() {
         </div>
       </div>
       <div className='contentFive'>
-          <div className='box'>
-            hey
+        <div className='box'>
+          <h3>Got a question?</h3>
+          <p></p>
+          <div className='form-box'>
+            <input type="email" placeholder='E-mail*' id="email-box" name="email-box" required></input>
+            <input type="number" placeholder='Phone*' id="phone-box" name="phone-box" required></input>
+            <input type="text" placeholder='Message*' id="phone-box" name="phone-box" required></input>
+            <label style={{textAlign: "left", padding: "10px 0px 0px 25px"}}>* Required</label>
+            <CustomButton className="message-button">Send Message</CustomButton>
           </div>
+        </div>
       </div>
       <Footer></Footer>
     </>

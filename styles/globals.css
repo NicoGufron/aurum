@@ -24,7 +24,7 @@ body {
 
 .contentTwo {
   /* background-image: url("../assets/bg2.png"); */
-  background-color: rgb(19, 18, 18);
+  background-color: #202020;
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -39,18 +39,20 @@ body {
   background-image: url("/assets/2.webp");
   background-position: center;
   background-size: cover;
-  height: 70vh;
+  height: 75vh;
+  margin: 0 auto;
+  padding-top: 5%;
 }
 
 .box {
-  height: 500px;
-  width: 800px;
   text-align: center;
+  margin: 0 auto;
+  height: auto;
+  width: 800px;
   padding: 25px;
-  margin: 75px 150px 0px 0px;
-  float: right;
+  position: relative;
   border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.925);
+  background-color: #202020;
   color: white;
 }
 
@@ -85,7 +87,7 @@ body {
 }
 
 .contentFour {
-  background-color: rgb(19, 18, 18);
+  background-color: #202020;
   height: auto;
   color: white;
   margin: 0 auto;
@@ -153,11 +155,31 @@ h1 {
   padding-top: 15px;
 }
 
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-button {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 2px solid white;
+}
 
 .footer {
   color: white;
   height: 35vh;
-  background-color: black;
+  background-color: #202020;
   display: flex;
   flex-direction: row;
   align-content: center;

@@ -16,7 +16,7 @@ function Navbar() {
                         <a className='nav-link' href={"#features"}>Features</a>
                     </li>
                     <li className='nav-item'>
-                        <a className='nav-link' href={"#"}>Gallery</a>
+                        <a className='nav-link' href={"#gallery"}>Gallery</a>
                     </li>
                 </ul>
             </div>
