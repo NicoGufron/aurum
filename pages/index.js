@@ -66,7 +66,7 @@ function Home() {
         <div className="reasons">
           <div className='aboutText'>
             <h3>Stay at Home</h3>
-            <p style={{ textAlign: "justify" }}>Save your time and distance. You wouldn't have to meet your designer one-on-one anymore, your designer will work with you online to bring your soon to be space with an interactive 3D model while you stay at home. </p>
+            <p style={{ textAlign: "justify" }}>Save your time and distance. You wouldn&apos;t have to meet your designer one-on-one anymore, your designer will work with you online to bring your soon to be space with an interactive 3D model while you stay at home. </p>
           </div>
           <div className='aboutText'>
             <h3>Interactive 3D Design</h3>
