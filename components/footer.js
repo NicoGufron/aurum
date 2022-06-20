@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import Instagram from '../assets/instagram-xxl.png';
-import Discord from '../assets/discord-2-xxl.png';
-import Twitter from '../assets/twitter-xxl.png';
+import Instagram from '../public/assets/instagram-xxl.png';
+import Discord from '../public/assets/discord-2-xxl.png';
+import Twitter from '../public/assets/twitter-xxl.png';
 
 function Footer() {
     return (

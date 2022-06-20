@@ -13,7 +13,7 @@ body {
 }
 
 .contentOne {
-  background-image: url("../assets/bg2.png"); 
+  background-image: url("/assets/bg2.png"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,7 +36,7 @@ body {
 }
 
 .contentFive {
-  background-image: url("../assets/2.webp");
+  background-image: url("/assets/2.webp");
   background-position: center;
   background-size: cover;
   height: 70vh;
@@ -73,7 +73,7 @@ body {
 .contentThree {
   height: 100vh;
   padding-top: 5%;
-  background-image: url("../assets/bg3.jpg");
+  background-image: url("/assets/bg3.jpg");
   background-position: center;
   background-size: cover;
   margin: 0 auto;

@@ -2,10 +2,10 @@ import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image';
-import no1 from "../assets/bg1.png";
-import no2 from "../assets/bg2.png";
-import no3 from "../assets/bg3.jpg";
-import no4 from "../assets/bg4.jpg";
+import no1 from "../public/assets/bg1.png";
+import no2 from "../public/assets/bg2.png";
+import no3 from "../public/assets/bg3.jpg";
+import no4 from "../public/assets/bg4.jpg";
 
 function ImgCarousel() {
     return (
