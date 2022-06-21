@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
+import { styled } from '@mui/system';
 import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import ButtonUnstyled, { buttonUnstyledClasses } from '@mui/base/ButtonUnstyled';
-import { styled } from '@mui/system';
-import 'animate.css';
 import ImgCarousel from '../components/Carousel.js';
 import VideoGIF from '../public/assets/video.gif';
+import 'animate.css';
 
 function Home() {
   const ref = useRef(null);
@@ -67,11 +67,11 @@ function Home() {
         <div className="reasons">
           <div className='aboutText'>
             <h3>Stay at Home</h3>
-            <p style={{ textAlign: "justify" }}>Save your time and distance. You would not have to meet your designer one-on-one anymore, your designer will work with you online to bring your soon to be space with an interactive 3D model while you stay at home. </p>
+            <p>Save your time and distance. You would not have to meet your designer one-on-one anymore, your designer will work with you online to bring your soon to be space with an interactive 3D model while you stay at home. </p>
           </div>
           <div className='aboutText'>
             <h3>Interactive 3D Design</h3>
-            <p style={{ textAlign: "justify" }}>You will be able to interact with the objects of your choosing. How? We develop your virtual interior so you will be able to feel like you are actually in your soon to be space while you decide what fits in or not by choosing materials or textures real-time!</p>
+            <p>You will be able to interact with the objects of your choosing. How? We develop your virtual interior so you will be able to feel like you are actually in your soon to be space while you decide what fits in or not by choosing materials or textures real-time!</p>
           </div>
         </div>
         <div className='video-section'>

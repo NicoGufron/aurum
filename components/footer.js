@@ -10,7 +10,7 @@ function Footer() {
             <div className="firstRow">
                 <h1><a href={"#"}>AURUM</a></h1>
             </div>
-            <div className="firstRow">
+            <div className="secondRow">
                 <h3>Contact</h3>
                 <ul className='footerLinks'>
                     <li className='footerBullets'><a>goldiegufron@gmail.com</a></li>
