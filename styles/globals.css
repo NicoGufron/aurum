@@ -264,10 +264,10 @@ h3 {
   
 }
 .reasons{
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -396,6 +396,7 @@ lottie-player {
   .nav-item {
     margin-left: 0px;
     margin-right: 0px;
+    width: 150px;
   }
 
   .titleTwo {
@@ -469,10 +470,22 @@ lottie-player {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
+
+  .nav-item {
+    font-size: 15px;
+  }
 
   .topTitle {
-    font-size: 60px;
+    font-size: 50px;
+  }
+
+  .titleTwo {
+    font-size: 30px;
+  }
+
+  .aboutText p {
+    font-size: 18px;
   }
 
   .bottomTitle {
